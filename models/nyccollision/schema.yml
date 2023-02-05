@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: test 
+    description: 'sample database'
+    database: test
+    schema: public 
+    tables:
+      - name: nyccollision
+        description: 'Newyork Collision data'
+models:
+  - name: newyork_data_store
+    description: "A new trial model"
+    columns:
+        - name: cause 
+          description: "shows the cause of collision"
+          tests:
+              - not_null
+
