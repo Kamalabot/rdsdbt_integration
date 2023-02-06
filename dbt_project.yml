@@ -38,4 +38,5 @@ models:
       +materialized: view
       +schema: staging
     example:
-      +schema: staging
+      +materialized: view 
+      +schema: public

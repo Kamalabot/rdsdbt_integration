@@ -16,4 +16,5 @@ models:
           description: "shows the cause of collision"
           tests:
               - not_null
+              - dbt_utils.at_least_one
 
